@@ -1,0 +1,128 @@
+# Copyright (C) 2023 Rupom Khondaker
+# This file is distributed under the same license as the Woo Button Text plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Button Text 7.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-button-text\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-09-14T15:15:43+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.0\n"
+"X-Domain: woo-button-text\n"
+
+#: includes/class-wbt-settings.php:126
+msgid "General Settings"
+msgstr ""
+
+#: includes/class-wbt-settings.php:127
+msgid "Advanced Settings"
+msgstr ""
+
+#: includes/class-wbt-settings.php:133
+msgid "Button Text Settings"
+msgstr ""
+
+#: includes/class-wbt-settings.php:140
+msgid "Shop/Archive Button Text"
+msgstr ""
+
+#: includes/class-wbt-settings.php:141
+msgid "Single Product Button Text"
+msgstr ""
+
+#: includes/class-wbt-settings.php:142
+msgid "Variable Product Button Text"
+msgstr ""
+
+#: includes/class-wbt-settings.php:143
+msgid "Grouped Product Button Text"
+msgstr ""
+
+#: includes/class-wbt-settings.php:144
+msgid "External Product Button Text"
+msgstr ""
+
+#: includes/class-wbt-settings.php:145
+msgid "Place Order Button Text"
+msgstr ""
+
+#: includes/class-wbt-settings.php:146
+msgid "Return to Shop Button Text"
+msgstr ""
+
+#: includes/class-wbt-settings.php:169
+msgid "Button Style & Advanced Settings"
+msgstr ""
+
+#: includes/class-wbt-settings.php:177
+msgid "Button Background Color"
+msgstr ""
+
+#: includes/class-wbt-settings.php:188
+msgid "Button Text Color"
+msgstr ""
+
+#: includes/class-wbt-settings.php:199
+msgid "Button Border Radius (px)"
+msgstr ""
+
+#: includes/class-wbt-settings.php:212
+msgid "Button Font Size (px)"
+msgstr ""
+
+#: includes/class-wbt-settings.php:225
+msgid "Button Padding (CSS format)"
+msgstr ""
+
+#: includes/class-wbt-settings.php:237
+msgid "Proceed to Checkout Text"
+msgstr ""
+
+#: includes/class-wbt-settings.php:238
+msgid "Proceed to PayPal Text"
+msgstr ""
+
+#: includes/class-wbt-settings.php:239
+msgid "Apply Coupon Text"
+msgstr ""
+
+#: includes/class-wbt-settings.php:240
+msgid "Update Cart Text"
+msgstr ""
+
+#: includes/class-wbt-settings.php:254
+msgid "Remove Related Products"
+msgstr ""
+
+#: includes/class-wbt-settings.php:259
+msgid "Enable to remove related products from single product page"
+msgstr ""
+
+#: includes/class-wbt-settings.php:269
+msgid "Customize the text for various WooCommerce buttons."
+msgstr ""
+
+#: includes/class-wbt-settings.php:276
+msgid "Customize the style and appearance of WooCommerce buttons and additional text options."
+msgstr ""
+
+#: includes/class-wbt-settings.php:342
+#: includes/class-wbt-settings.php:343
+msgid "Woo Button Text"
+msgstr ""
+
+#: includes/class-wbt-settings.php:358
+msgid "Woo Button Text Settings"
+msgstr ""
+
+#: woo-button-text-new.php:81
+msgid "Settings"
+msgstr ""
+
+#: woo-button-text-new.php:92
+msgid "Woo Button Text requires WooCommerce to be installed and active."
+msgstr ""

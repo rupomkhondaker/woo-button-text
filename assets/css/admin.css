@@ -1,0 +1,224 @@
+/**
+ * Admin styles for Woo Button Text plugin
+ */
+
+/* Main Settings Container */
+.wbt-settings-wrap {
+    margin: 25px 15px 20px 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Header Styling */
+.wbt-settings-wrap h1 {
+    padding: 20px 25px;
+    margin: 0 0 20px;
+    background: #f7f7f7;
+    border-bottom: 1px solid #eee;
+    color: #23282d;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+/* Tab Navigation */
+.wbt-settings-wrap .nav-tab-wrapper {
+    margin: 0;
+    padding: 0 20px;
+    border-bottom: 1px solid #ccc;
+    background: #f7f7f7;
+}
+
+.wbt-settings-wrap .nav-tab {
+    margin: 0 5px -1px 0;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.wbt-settings-wrap .nav-tab-active {
+    background: #fff;
+    border-bottom-color: #fff;
+    color: #0073aa;
+}
+
+/* Form Container */
+.wbt-settings-wrap form {
+    padding: 20px 25px;
+}
+
+/* Table Styling */
+.wbt-settings-wrap .form-table {
+    margin-top: 15px;
+    background: #fff;
+    border-collapse: collapse;
+}
+
+.wbt-settings-wrap .form-table th {
+    width: 250px;
+    padding: 20px 10px 20px 0;
+    vertical-align: top;
+    font-weight: 600;
+}
+
+.wbt-settings-wrap .form-table td {
+    padding: 15px 10px;
+    vertical-align: middle;
+}
+
+/* Section Headers */
+.wbt-settings-wrap h2:not(.nav-tab-wrapper) {
+    padding: 15px 0 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #23282d;
+    border-bottom: 1px solid #eee;
+    margin: 20px 0 10px;
+}
+
+/* Form Fields */
+.wbt-settings-wrap input[type="text"],
+.wbt-settings-wrap input[type="number"] {
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+    padding: 8px 10px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.wbt-settings-wrap input[type="text"]:focus,
+.wbt-settings-wrap input[type="number"]:focus {
+    border-color: #0073aa;
+    box-shadow: 0 0 0 1px #0073aa;
+    outline: 2px solid transparent;
+}
+
+/* Color Picker */
+.wbt-settings-wrap .wp-picker-container {
+    display: inline-block;
+}
+
+.wbt-settings-wrap .wp-picker-container .wp-color-result.button {
+    margin: 0 6px 0 0;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.wbt-settings-wrap .wp-picker-container .wp-picker-input-wrap label {
+    margin-right: 5px;
+}
+
+.wbt-settings-wrap .wp-picker-container .wp-picker-input-wrap .wp-color-picker {
+    width: 80px;
+    border-radius: 4px;
+}
+
+/* Checkbox Styling */
+.wbt-settings-wrap input[type="checkbox"] {
+    position: relative;
+    top: 2px;
+    margin-right: 8px;
+}
+
+/* Description Text */
+.wbt-settings-wrap .description {
+    font-style: italic;
+    color: #666;
+    margin-top: 8px;
+    display: block;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* Submit Section */
+.wbt-settings-wrap .wbt-submit-section {
+    margin-top: 30px;
+    padding: 20px 0;
+    border-top: 1px solid #eee;
+    text-align: left;
+}
+
+.wbt-settings-wrap .wbt-submit-section hr {
+    margin: 0 0 15px;
+    border: 0;
+    height: 1px;
+    background: #eee;
+}
+
+.wbt-settings-wrap .button-primary {
+    background: #0073aa;
+    border-color: #0073aa;
+    color: #fff;
+    padding: 5px 15px;
+    height: auto;
+    text-shadow: none;
+    box-shadow: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.wbt-settings-wrap .button-primary:hover,
+.wbt-settings-wrap .button-primary:focus {
+    background: #005d8c;
+    border-color: #005d8c;
+}
+
+/* Section Descriptions */
+.wbt-settings-wrap .section-description {
+    margin: 0 0 20px;
+    padding: 12px 15px;
+    background: #f8f8f8;
+    border-left: 4px solid #0073aa;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    color: #444;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Footer Styling */
+.wbt-settings-wrap .wbt-footer {
+    margin-top: 30px;
+    padding: 15px 0;
+    border-top: 1px solid #eee;
+    text-align: center;
+    color: #666;
+    font-size: 13px;
+}
+
+.wbt-settings-wrap .wbt-footer a {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+.wbt-settings-wrap .wbt-footer a:hover {
+    color: #00a0d2;
+    text-decoration: underline;
+}
+
+.wbt-settings-wrap .wbt-footer .dashicons {
+    vertical-align: middle;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 782px) {
+    .wbt-settings-wrap .form-table th {
+        width: 100%;
+        display: block;
+        padding-bottom: 0;
+    }
+    
+    .wbt-settings-wrap .form-table td {
+        width: 100%;
+        display: block;
+        padding-top: 5px;
+    }
+    
+    .wbt-settings-wrap .wbt-footer {
+        padding: 15px;
+    }
+}
